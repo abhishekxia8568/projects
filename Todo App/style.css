@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+    margin: 0;
+    display: flex;
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.app{
+    background-color: rgb(213, 239, 231);
+    width: 300px;
+    height: auto;
+    border: 1px solid aqua;
+    border-radius: 8px;
+    padding: 15px;
+}
+#addnew{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aqua;
+    opacity: 0.8;
+    padding: 5px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+#msg{
+    color: red;
+    padding-left: 2px;
+    font-size: 14px;
+}
+#tasks{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 14px;
+}
+#tasks div{
+    border: 1px solid aqua;
+    background-color: aqua;
+    border-radius: 5px;
+    padding: 5px;
+    display: grid;
+    gap: 4px;
+}
+#tasks div .options{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+#tasks div .options i{
+    cursor: pointer;
+}
